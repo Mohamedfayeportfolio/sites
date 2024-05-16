@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS| CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#services">Mes Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/mouhamed-faye-1082a2271/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/Mohamedfayeportfolio" ><i class="fab fa-github"></i></a>
+          
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Bonjour,</div>
+          <div class="text-two">MOUHAMED FAYE</div>
+          <div class="text-three">Data analyst / Business analyst</div>
+          <div class="text-four">From Dakar , sénégal</div>
+        </div>
+        <div class="button">
+          <button>Embauchez-moi</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>À propos de moi</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="c:\Users\lenovo\Documents\lift\Images\FIWC9164 (1).JPG"alt="Images" />
+          </div>
+          <div class="right">
+            <div class="topic">La Data est ma Passion</div>
+            <p>
+             
+
+Bonjour,
+
+Je suis Mouhamed Faye, un Data Analyst / Business Analyst junior de 24 ans, passionné par le pouvoir des données et des technologies émergentes telles que l'intelligence artificielle. Je suis à un stade précoce de ma carrière mais je possède déjà une solide expérience dans l'analyse et l'interprétation des données pour fournir des insights stratégiques et des solutions commerciales efficaces.
+Mon parcours professionnel est centré sur ma passion pour la data. J'ai développé une expertise dans la collecte, le nettoyage et l'analyse de données volumineuses, ainsi que dans la création de modèles prédictifs et des tableaux de bord interactifs pour visualiser les résultats. Bien que je sois junior, je suis déterminé à apprendre et à me perfectionner dans mon domaine afin de contribuer de manière significative aux projets auxquels je participe.
+Je suis animé par la volonté constante d'apprendre et de me perfectionner dans mon domaine. Mon approche méthodique et analytique, associée à ma capacité à communiquer des concepts complexes de manière claire et concise, me permet de collaborer efficacement avec des équipes multidisciplinaires et de proposer des solutions innovantes aux défis commerciaux.
+Mon engagement envers l'éthique et la qualité dans toutes mes activités professionnelles garantit que mes analyses sont précises, fiables et respectueuses des normes et des réglementations en vigueur.
+Je suis actuellement à la recherche de nouvelles opportunités passionnantes où je pourrais mettre en pratique mes compétences en analyse de données et contribuer à des projets innovants. Si vous êtes intéressé par une collaboration ou si vous souhaitez discuter de la manière dont je pourrais apporter une valeur ajoutée à votre équipe, n'hésitez pas à me contacter.
+            </p>
+            <div class="button">
+              <button onclick="downloadCV()">Télécharger CV</button>
+          </div>
+          
+          <script>
+          function downloadCV() {
+              // Créez un lien de téléchargement
+              var downloadLink = document.createElement("a");
+              downloadLink.href = "https://github.com/Mohamedfayeportfolio/portfolio-data/blob/main/FAYE%20(6)%20(2).pdf"; // Spécifiez le chemin vers votre CV
+          
+              // Nommez le fichier téléchargé
+              downloadLink.download = "https://github.com/Mohamedfayeportfolio/portfolio-data/blob/main/FAYE%20(6)%20(2).pdf"; // Spécifiez le nom du fichier que l'utilisateur téléchargera
+          
+              // Simulez un clic sur le lien pour déclencher le téléchargement
+              document.body.appendChild(downloadLink);
+              downloadLink.click();
+              document.body.removeChild(downloadLink);
+          }
+          </script>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>Mes compétences</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Les compétences reflètent notre savoir</div>
+            <p>Nos compétences reflètent notre niveau d'expertise dans un domaine spécifique.
+              Chaque compétence maîtrisée renforce notre capacité à résoudre des problèmes et à atteindre nos objectifs professionnels.
+              Investir dans le développement de compétences ouvre de nouvelles opportunités professionnelles et favorise notre croissance personnelle.
+              Nos compétences démontrent notre engagement envers l'excellence professionnelle et notre volonté de perfectionnement continu.
+              Nos compétences constituent un pilier fondamental de notre identité professionnelle, nous distinguant dans notre domaine d'activité.
+              Les compétences sont les outils par lesquels nous appliquons notre savoir dans la pratique, démontrant notre capacité à transformer les connaissances en résultats tangibles.
+              Chaque nouvelle compétence acquise élargit notre champ de connaissances et renforce notre expertise, nous maintenant compétitifs sur le marché du travail.</p>
+            <div class="experience">
+              <div class="num">1</div>
+              <div class="exp">
+                Années de <br />
+                Experience
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">EXCEL</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">SQL</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">POWER BI</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">PYTHON</div>
+              <div class="per">60%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Services Section Start -->
+    <a href="https://github.com/Mohamedfayeportfolio/portfolio-data/blob/main/projet%20analyse%20de%20ventes%20(2).pdf">
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>Mes Projets</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Analyse de Ventes Avec POWER BI</div>
+            <p>Dans le cadre d'un projet personnel passionnant, j'ai dirigé la création d'un tableau de bord interactif des performances de vente avec Power BI.
+              Collecte, nettoyage et analyse des données de ventes pour créer des visualisations dynamiques. Résultat : une vue d'ensemble claire des performances de vente, avec identification des tendances et des opportunités de croissance.
+
+              Résultats Obtenu :
+
+              Ce projet démontre ma capacité à transformer les données en actions concrètes, optimisant ainsi mes stratégies commerciales et ma rentabilité.</p>
+            </a>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-arrow-up"></i>
+            </div>
+            <a href=https://github.com/Mohamedfayeportfolio/sql-project/commit/9bab9949e2f188f002f8825fadfe0a243fa16952>
+            <div class="topic">Projet SQL</div>
+            <p> Analyse des Ventes
+
+              Le projet d'analyse des ventes consiste à explorer les données transactionnelles de l'entreprise pour extraire des insights précieux. L'objectif est d'identifier les tendances clés dans les ventes, telles que les produits les plus vendus, les performances des succursales et les préférences des clients. Ces analyses aideront à orienter les décisions stratégiques de l'entreprise pour stimuler la croissance et améliorer les performances commerciales.</p>
+          </div>
+          </a>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-arrow-up"></i>
+            </div>
+            <a href=https://github.com/Mohamedfayeportfolio/portfolio-data/blob/main/White%20Illustrative%20Creative%20Literature%20Project%20Presentation%20(1).pdf>
+            <div class="topic">Analyse du Contenu de Streaming</div>
+            <p> 
+
+              Ce projet vise à analyser les données relatives aux émissions de télévision et aux films afin de fournir des insights précieux aux décideurs. L'objectif est de comprendre les tendances et les préférences des spectateurs, en identifiant les pays contributeurs, les types de contenu populaires, les tendances de sortie au fil du temps, les préférences de classification par âge, les durées préférées, et les acteurs/actrices les plus prolifiques.</p>
+          </div>
+          </a>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Digital Marketing</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="topic">Icon Design</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Photography</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">Apps Devlopment</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contactez-moi</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+          <ul class="items">
+
+          <div class="button">
+            <button>Let's Chat</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">CodingLab</a> | &#169; 2021 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
